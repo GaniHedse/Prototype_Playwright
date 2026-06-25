@@ -26,7 +26,7 @@ export class BaseTest {
 
             case 'firefox':
                 this.browser = await firefox.launch({
-                    headless: config.browserOptions.headless,
+                   // headless: config.browserOptions.headless,
                     slowMo: config.browserOptions.slowMo
                 });
                 break;

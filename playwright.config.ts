@@ -5,7 +5,8 @@ export default defineConfig({
   testDir: './tests',
   fullyParallel: true,
 
-  retries:2,
+  retries:1,
+
 
   workers: 1,
 

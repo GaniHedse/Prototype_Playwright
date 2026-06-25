@@ -6,7 +6,7 @@ export default defineConfig({
   fullyParallel: true,
 
   retries:1,
-,
+
   workers: 1,
 
   reporter: [
